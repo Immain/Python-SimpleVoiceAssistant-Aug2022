@@ -7,6 +7,7 @@ import wolframalpha
 import os
 import pywhatkit as kit
 import requests
+from requests import get
 import smtplib
 import shutil
 import pyaudio
@@ -215,11 +216,10 @@ if __name__ == '__main__':
             print("The answer is " + answer)
             speak("The answer is " + answer)
 
-        elif 'search' in query or 'play' in query:
-
-            query = query.replace("search", "")
-            query = query.replace("play", "")
-            webbrowser.open(query)
+        elif 'ip address' in query:
+            ip = get('https://api.ipify.org').text
+            print(f"your IP address is {ip}")
+            speak(f"your IP address is {ip}")
 
         # Exit the program
         elif 'stop listening' in query:
