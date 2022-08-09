@@ -4,9 +4,9 @@ import datetime
 import wikipedia
 import webbrowser
 import wolframalpha
+import time
 import os
 import pywhatkit as kit
-import requests
 from requests import get
 import smtplib
 import shutil
