@@ -3,7 +3,7 @@
 # Python-SimpleVoiceAssistant-Aug2022
 Simple Voice Assistant as a personal and fun project
 
-# Cool Functionalities
+# Cool Functionalities 😎
 - It can tell you your IP Address
 - It can do calculations
 - It can tell you anything you want to know
@@ -34,7 +34,7 @@ To run this project you should need some API key's for calculations, finding pho
 - [Wolframalpha](https://www.wolframalpha.com/) - Computational Knowledge Engine
 - [Ipify](https://www.ipify.org/) - A Simple Public IP Address API
 
-# Future Updates
+# Future Updates 💿
 - Be able to play music on Spotify
 - Ask Plex to play movies
 - Post messages into Discord
