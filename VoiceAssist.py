@@ -206,7 +206,6 @@ if __name__ == '__main__':
             speak(f"the time is {strTime}")
 
         elif "calculate" in query:
-
             app_id = "AppId"
             client = wolframalpha.Client(app_id)
             indx = query.lower().split().index('calculate')
@@ -215,11 +214,34 @@ if __name__ == '__main__':
             answer = next(res.results).text
             print("The answer is " + answer)
             speak("The answer is " + answer)
+            
+        elif 'ask' in query:
+            speak('I can answer to computational and geographical questions  and what question do you want to ask now')
+            question=takeCommand()
+            app_id="your_app_id"
+            client = wolframalpha.Client(app_id)
+            res = client.query(question)
+            answer = next(res.results).text
+            speak(answer)
+            print(answer)
+
+        elif "where is" in query:
+            query = query.replace("where is", "")
+            location = query
+            speak("User asked to Locate")
+            speak(location)
+            webbrowser.open("https://www.google.com/maps/place/" + location + "/&amp;")
 
         elif 'ip address' in query:
             ip = get('https://api.ipify.org').text
             print(f"your IP address is {ip}")
             speak(f"your IP address is {ip}")
+            
+        elif 'search' in query:
+            query = query.replace("search", "")
+            webbrowser.open_new_tab(query)
+            speak("Here is what I found for you")
+            time.sleep(5)
 
         # Exit the program
         elif 'stop listening' in query:
