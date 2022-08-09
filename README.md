@@ -23,5 +23,5 @@ pip3 install pywhatkit
 
 # API keys 🔑
 To run this project you should need some API key's for calculations, finding phone number location, weather data, and more! Register for your API key by clicking the following
-- [Wolframalpha](https://www.wolframalpha.com/)
+- [Wolframalpha](https://www.wolframalpha.com/) - computational knowledge engine
 - 
