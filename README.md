@@ -8,6 +8,7 @@ Simple Voice Assistant as a personal and fun project
 - It can do calculations
 - It can tell you anything you want to know
 - It can open URLs using Chrome on your computer
+- It can search locations in Google Maps
 
 # Modules Required ⌨️
 ```
