@@ -22,3 +22,4 @@ pip3 install pywhatkit
 ```
 
 # API keys 🔑
+- [This is an external link to genome.gov](https://www.genome.gov/)
