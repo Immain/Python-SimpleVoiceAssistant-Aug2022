@@ -22,4 +22,6 @@ pip3 install pywhatkit
 ```
 
 # API keys 🔑
-- [This is an external link to genome.gov](https://www.genome.gov/)
+To run this project you should need some API key's for calculations, finding phone number location, weather data, and more! Register for your API key by clicking the following
+- [Wolframalpha]([https://www.genome.gov/](https://www.wolframalpha.com/))
+- 
